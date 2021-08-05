@@ -1,0 +1,92 @@
+/* google fonts calling */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    box-sizing: border-box;
+    background-color: rgb(131, 131, 131);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b2a2a;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button.btn {
+    padding: 14px 41px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 77px !important;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 8px;
+    background: linear-gradient(to left, #7376e2, #450798);
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+}
+
+h1#result {
+    font-size: 55px;
+}
+
+p.games-p {
+    margin-top: 50px;
+}
+
+
+
+span{
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: aninate 1s linear infinite;
+}
+
+@keyframes aninate {
+    0%{
+        width: 0;
+        height: 0;
+        opacity: .5;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
+
+/* button:last-child {
+    background: #3a3a3a;
+    color: #6d6d6d;
+} */
+
+
+
+
+
